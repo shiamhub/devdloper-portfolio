@@ -3,7 +3,7 @@
     font-family: 'Open Sans', sans-serif;
 }
 
-.nav-titls {
+.nav-title {
     font-weight: 800;
     font-size: 45px;
 }
@@ -67,7 +67,8 @@ nav ul {
     background-color: #FFF8F3;
     background: url(../images/header_bg.png), url(../images/developer.png);
     background-repeat: no-repeat;
-    background-position: bottom right, left;
+    background-position: bottom right,left;
+    margin-left: 30px;
 }
 section{
     margin-top: 130px;
@@ -122,6 +123,7 @@ main {
 .skills-container{
     display: flex;
     gap: 24px;
+    padding: 130px 150px;
 
 }
 .skills-title{
@@ -142,6 +144,7 @@ padding: 30px;
 .resume-content{
     display: flex;
     gap: 24px;
+    padding: 130px 150px;
 }
 .resume .title{
     color: #474747;
@@ -174,13 +177,19 @@ padding: 30px;
     gap: 100px;
     color: #474747;
     padding: 130px 200px;
+    
+    background: #FFF8F3;
 }
-.contact input[type="text"], input[type="email"] textarea{
+.contact input[type="text"], input[type="email"], textarea{
     margin-bottom: 24px;
     border: 0;
     width: 100%;
     padding:18px 30px;
 }
-.contact{
-    text-decoration: none;
+input{
+    height: 64px;
+    background: #FFFFFF;
+border-radius: 5px;
 }
+.contact a{text-decoration: none;
+margin: 24px 24px;}
