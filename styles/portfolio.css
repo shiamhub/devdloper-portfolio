@@ -15,7 +15,7 @@
 nav {
     display: flex;
     justify-content: space-between;
-    margin: 50px 200px;
+    padding: 50px 200px;
 }
 
 nav li {
@@ -97,7 +97,7 @@ section{
 }
 
 main {
-    max-width: 1140px;
+    max-width: 1180px;
     margin: 0 auto;
 }
 
